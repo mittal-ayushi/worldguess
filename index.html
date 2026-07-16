@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GeoGuessr</title>
+    <title>WorldGuess</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
-    <style>
+    <!-- <style>
         body{
             margin:0;
             font-family:Arial,sans-serif;
@@ -53,12 +53,13 @@
     background:#fff;
     box-shadow:0 2px 8px rgba(0,0,0,0.25);
 }
-    </style>
+    </style> -->
+
 </head>
 
 <body>
 
-    <h2>GeoGuessr</h2>
+    <h2>WorldGuess</h2>
 
     <iframe
         id="streetview"
@@ -88,6 +89,7 @@
 <div id="map"></div>
 <div id="mapContainer">
     <button id="toggle">Open Map</button>
+    <button id="Confirm"> Confirm guess </button>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
